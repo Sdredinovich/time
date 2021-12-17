@@ -1,10 +1,11 @@
 .tablo {
-  height: 500px;
+  
   /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* border: 2px solid rgb(255, 0, 0) */
+
 }
 .tablo2 {
   background-color: rgb(255, 255, 255);
@@ -15,4 +16,17 @@
   border-radius: 5%;
   padding: 5px;
   overflow: hidden;
+}
+@media(max-width: 768px){
+  .tablo{
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+  }
+  .tablo2 {
+    padding: 0;
+    padding-top: 5px;
+    width: 350px;
+  }
+
 }
