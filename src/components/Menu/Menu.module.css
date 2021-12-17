@@ -1,0 +1,86 @@
+@keyframes selected {
+  0% {
+    font-size: 20px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+
+
+.menu {
+    user-select: none;
+  font-size: 20px;
+  height: 500px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid rgb(55, 0, 255); */
+  margin-right: 0px;
+  position: relative;
+}
+.menu2 {
+  width: 100%;
+  /* border: 2px solid  rgb(255, 0, 0); */
+  position: absolute;
+  transition: transform 0.3s;
+}
+.metkaSelect {
+  width: 100%;
+  height: 70px;
+  border-top: 2px solid rgb(189, 189, 189);
+  border-bottom: 2px solid rgb(189, 189, 189);
+  border-radius: 15%;
+}
+p {
+  font-weight: 600;
+
+  /* height: 60px; */
+  display: inline-block;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0;
+}
+
+.secondP {
+  margin: auto 20px;
+}
+
+.divP {
+  display: inline-block;
+  height: 70px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+    opacity: 0.5;
+}
+
+.div {
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+}
+.selected1 {
+    transform: translateY(70px);
+}
+.selected2 {
+    transform: translateY(0px);
+}
+
+.selected3 {
+    transform: translateY(-70px);
+}
+.selected {
+    font-size: 40px;
+    animation: selected 0.3s;
+    opacity: 1;
+
+  }

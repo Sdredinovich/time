@@ -1,0 +1,89 @@
+.timerInput{
+/* border: 2px solid rgb(255, 0, 0); */
+padding: 0;
+}
+.input {
+  border-radius: 10%;
+  width: 80px;
+  height: 130px;
+  -moz-appearance: textfield;
+  font-size: 70px;
+  background-color: silver;
+  cursor: default;
+  
+
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.razdel {
+  font-size: 80px;
+}
+.inpDiv {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid rgb(255, 0, 0); */
+}
+.inputTiitle{
+    opacity: 1;
+    display: inline;
+
+  text-align: center;
+
+}
+.tablo{
+    /* border: 2px solid blue; */
+    transition: transform 0.3s;
+    height: 160px;
+    
+}
+.pultDiv{
+    /* border: 2px solid red */
+    transition: transform 0.3s;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.startStop{
+    font-weight: 800;
+    width: 50%;
+height: 40px;
+cursor: pointer;
+background-color: rgb(141, 194, 167);
+}
+.stopbtn{
+    background-color: rgb(189, 133, 133);
+}
+.sbros{
+    font-weight: 800;
+
+cursor: pointer;
+    width: 50%;
+height: 40px;
+background-color: rgb(189, 133, 133);
+
+}
+.startInput{
+    background-color: rgb(255, 255, 255);
+}
+.pultDivNone{
+    transform: translateX(500px)
+}
+.tabloHourse{
+    transform: translatey(30px)
+    
+}
+input{
+    transition: top 1s;
+}
+.clockInp{
+    background-color: silver;
+    /* border-top: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0%;
+    margin-bottom: 3px;
+    padding-bottom: -60px; */
+}
